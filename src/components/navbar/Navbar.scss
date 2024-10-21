@@ -1,0 +1,81 @@
+.navbar {
+    background: #070d1be6;
+    padding-block: 1.2rem;
+    position: fixed;
+    z-index: 900;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+
+ &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ &__logo {
+    width: 100%;
+    font-size: 50px;
+    padding-left: 40px;
+ }
+
+ &__links {
+    display: flex;
+    align-items: center;
+ }
+
+ ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+ }
+
+ a {
+    text-transform: uppercase;
+    color: #fdfeff;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    transition: all 0.3s ease;
+ }
+
+ &:hover {
+    color: #fec544;
+ }
+
+ &__phone {
+    padding-left: 3rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    position: relative;
+
+    svg{
+        color: white;
+    }
+    span {
+        color: #fec544;
+    }
+
+
+}
+ &__phone::after {
+    position: relative;
+    content: "";
+    left: -1rem;
+    color: #fdfeff;
+ }
+
+ &__menu{
+    display: none;
+}
+
+   .show {
+    display: flex;
+}
+
+}
+
+ 
+
+ 

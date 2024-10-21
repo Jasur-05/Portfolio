@@ -1,0 +1,29 @@
+.bio {
+
+    background: #1a2130;
+    color: #fff;
+
+
+    &__desc {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    h5 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        max-width: 800px;
+    }
+
+}
+
+
+
+
+    
+}
